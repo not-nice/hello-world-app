@@ -26,8 +26,7 @@ jobs:
         run: |
           node app.js
 
-
       - name: Code Analysis
         run: |
-            npm install eslint
-            npx eslint app.js
+          npm install eslint
+          npx eslint app.js
